@@ -9,12 +9,12 @@ let myserver= myhttp.createServer(
     if (myrequest.url=== "/hey") {
       mytext= "Well hello there...";
     } else {
-      mytext = "I dont know you";
+      mytext = "I dont know you nerds who are taking CS55.13";
     }
 
     myresponse.writeHead(200, { "Content-Type": "text/plain" });
 
-    myresponse.end( mytext + " nerdes who are taking CS55.13!\n " );
+    myresponse.end( mytext + " Get away from me!! Help!\n " );
 
   }
 );
